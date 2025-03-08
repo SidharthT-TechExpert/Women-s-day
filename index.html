@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Day Celebration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <span class="menu-btn" onclick="toggleSidebar()">☰</span>
+        <h1>A Tribute to Mothers</h1>
+    </div>
+
+    <!-- Sidebar (Hidden by Default) -->
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#home" onclick="closeSidebar()">Home</a></li>
+            <li><a href="#section1" onclick="closeSidebar()">Section 1</a></li>
+            <li><a href="#section2" onclick="closeSidebar()">Section 2</a></li>
+            <li><a href="#section3" onclick="closeSidebar()">Section 3</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section id="home" class="content">
+            <img src="image1.png" alt="Women's Day Image 1" class="profile-img">
+            <p class="description">A Tribute to Mothers on Women's Day
+
+              To the incredible women who shape our lives with unconditional love, strength, and sacrifice—Happy Women's Day!
+              
+              Mothers are the heart of every home, the silent warriors who nurture, guide, and uplift us through every stage of life. From the moment we take our first breath, they stand as our first teachers, our fiercest protectors, and our greatest supporters. Their love is a force that knows no limits, their patience an example of true resilience.
+              
+              Today, we celebrate not just their role as caregivers but as individuals who dream, achieve, and inspire. Whether they are working professionals, homemakers, or balancing both, mothers embody the essence of empowerment and selflessness.
+              
+              To every mother—thank you for your endless sacrifices, your unwavering love, and the wisdom you share. You are the true embodiment of strength, grace, and beauty.
+              
+              Happy Women’s Day to all the amazing mothers! 💖✨</p>
+        </section>
+
+        <section id="section2" class="content">
+            <img src="image1.png" alt="Women's Day Image 3" class="profile-img">
+            <p class="description">Every woman is a warrior, fighting for dreams and equality. Let's uplift them always.</p>
+        </section>
+
+        <section id="section3" class="content alternate">
+            <p class="description">"A strong woman looks a challenge in the eye and gives it a wink." Celebrate their power!</p>
+            <img src="image1.png" alt="Women's Day Image 4" class="profile-img">
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p id="quote">"Empowered women empower the world!"</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
